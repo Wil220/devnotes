@@ -149,3 +149,23 @@ header {
 .note.fixed {
   background-color: #3c3c3f;
 }
+
+/* Responsividade */
+
+@media(max-width: 450px) {
+    header{
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%
+    }
+
+    #search-container{
+        width: 100%;
+    }
+
+    #search-input{
+        width: 100%:
+    }
+
+
+}
